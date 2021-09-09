@@ -10,6 +10,8 @@ use crate::chain::Chain;
 use crate::Diagnostic;
 use core::ops::{Deref, DerefMut};
 
+use crate as miette;
+
 impl Report {
     /// Create a new error object from any error type.
     ///
